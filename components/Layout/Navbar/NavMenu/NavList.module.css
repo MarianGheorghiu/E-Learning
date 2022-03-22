@@ -1,0 +1,11 @@
+.custom__link {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: #eeeeee !important;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.custom__link:hover {
+    color: antiquewhite !important;
+}

@@ -1,0 +1,17 @@
+.nav__backround {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
+    /* background-color: #000000; */
+}
+
+.logo {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.custom__menu {
+    background-color: #000000;
+    color: aliceblue;
+}

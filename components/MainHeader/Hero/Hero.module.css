@@ -1,0 +1,38 @@
+.h1 {
+    margin: 0;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+}
+
+.h2 {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+
+.hero-section {
+    padding-top: 1%;
+}
+
+.btn {
+    margin-top: 5px;
+    display: inline-block;
+    padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+    border: 1px solid #c2337b;
+    border-radius: 32px;
+    background-color: #c2337b;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #c2337b; /* needs to stay here because of the color property of a tag */
+    text-decoration: none;
+}

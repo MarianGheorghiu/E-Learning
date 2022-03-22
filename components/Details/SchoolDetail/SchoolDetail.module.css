@@ -1,0 +1,29 @@
+.school {
+    padding-top: 8.5rem;
+    padding-bottom: 10rem;
+    margin-top: 8.5rem;
+}
+
+.text {
+    margin-bottom: 4rem;
+}
+
+.h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.hr {
+    display: inline-block;
+    margin-top: 0.25rem;
+    margin-bottom: 1.375rem;
+    background-color: #d11313;
+    width: 5rem;
+    height: 2px;
+}
+
+.image {
+    max-width: 100%;
+    height: 50%;
+}

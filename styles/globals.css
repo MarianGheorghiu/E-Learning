@@ -8,3 +8,12 @@
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
 }
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}

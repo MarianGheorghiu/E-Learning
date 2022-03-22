@@ -1,0 +1,22 @@
+.card {
+    margin-bottom: 4rem;
+    border: 0;
+    background-color: transparent;
+    width: 350px;
+    display: inline-table;
+}
+
+.h1 {
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.text {
+    color: #ffffff;
+    font-size: large;
+}
+
+.image {
+    color: #ffffff;
+}
