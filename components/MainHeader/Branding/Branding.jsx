@@ -25,7 +25,7 @@ const CUSTOM_VALUES = [
 
 const Branding = () => {
     return (
-        <div className={`container-fluid ${classes.services}`}>
+        <div className={`container ${classes.services}`}>
             <div className="row">
                 <div className="col-lg-12">
                     {CUSTOM_VALUES.map((value, index) => (

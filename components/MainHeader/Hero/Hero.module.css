@@ -13,7 +13,7 @@
 }
 
 .hero-section {
-    padding-top: 1%;
+    padding-top: 3%;
 }
 
 .btn {
@@ -35,4 +35,29 @@
     background-color: transparent;
     color: #c2337b; /* needs to stay here because of the color property of a tag */
     text-decoration: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .h1 {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .h2 {
+        margin: 5px 0 0 0;
+        font-size: 18.5px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .h1 {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .h2 {
+        margin: 15px 0 0 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
 }

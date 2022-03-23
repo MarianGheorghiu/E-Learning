@@ -1,0 +1,41 @@
+.clients-wrap {
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.client-logo {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    background: #fff;
+    height: 120px;
+}
+
+.client-logo img {
+    height: 50%;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.client-logo:hover img {
+    filter: none;
+    transform: scale(1.2);
+}
+
+.img {
+    transition: all 0.4s ease-in-out;
+}
+
+.h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #0f394c;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+.form-group {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.form-control-input {
+    border: 1px solid #585757;
+    background-color: #3a3939;
+}
+
+.form-control-input:focus {
+    background-color: #3a3939;
+    color: white;
+}
+
+.form-control-input:hover {
+    border-color: #817e7e;
+}
+
+.form-control-input::placeholder {
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    width: 20%;
+    max-width: 100%;
+    height: 3.25rem;
+    border: 1px solid #c2337b;
+    border-radius: 32px;
+    background-color: #c2337b;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 2%;
+}
+
+.btn:hover {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+@media screen and (max-width: 650px) {
+    .btn {
+        width: 100%;
+    }
+}
