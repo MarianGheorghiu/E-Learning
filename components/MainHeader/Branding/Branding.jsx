@@ -3,6 +3,7 @@ import DesignServicesIcon from '@mui/icons-material/DesignServices';
 import DescriptionIcon from '@mui/icons-material/Description';
 
 import classes from './Branding.module.css';
+import Link from 'next/link';
 import CardList from './CardList/CardList';
 
 const CUSTOM_VALUES = [
@@ -25,21 +26,30 @@ const CUSTOM_VALUES = [
 
 const Branding = () => {
     return (
-        <div className={`container ${classes.services}`}>
-            <div className="row">
-                <div className="col-lg-12">
-                    {CUSTOM_VALUES.map((value, index) => (
-                        <CardList
-                            key={`${value.title}${index}`}
-                            icon={value.icon}
-                            title={value.title}
-                            text={value.text}
-                        />
-                    ))}
+        <>
+            <Link href="/">
+                <a
+                    className="back-to-top page-scroll"
+                    style={{ display: 'inline' }}
+                />
+            </Link>
+
+            <div className={`container ${classes.services}`}>
+                <div className="row">
+                    <div className="col-lg-12">
+                        {CUSTOM_VALUES.map((value, index) => (
+                            <CardList
+                                key={`${value.title}${index}`}
+                                icon={value.icon}
+                                title={value.title}
+                                text={value.text}
+                            />
+                        ))}
+                    </div>
                 </div>
+                <br />
             </div>
-            <br />
-        </div>
+        </>
     );
 };
 
