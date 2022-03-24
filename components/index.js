@@ -1,0 +1,11 @@
+export { default as Details } from './Details/Details';
+export { default as Navbar } from './Layout/Navbar/Navbar';
+export { default as Hero } from './MainHeader/Hero/Hero';
+export { default as MainHeader } from './MainHeader/MainHeader';
+export { default as Branding } from './MainHeader/Branding/Branding';
+export { default as Team } from './Team/Team';
+export { default as Achivments } from './Achivments/Achivments';
+export { default as TrustedBy } from './TrustedBy/TrustedBy';
+export { default as Gallery } from './Gallery/Gallery';
+export { default as Contact } from './Contact/Contact';
+export { default as Copyright } from './Copyright/Copyright';

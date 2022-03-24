@@ -36,3 +36,19 @@ a.back-to-top {
 a:hover.back-to-top {
     background-color: #c2337b;
 }
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-30px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.hero__animate {
+    animation: float 3s ease-in-out infinite;
+}

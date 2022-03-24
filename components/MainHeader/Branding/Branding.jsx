@@ -34,7 +34,10 @@ const Branding = () => {
                 />
             </Link>
 
-            <div className={`container ${classes.services}`}>
+            <div
+                data-aos="zoom-in-down"
+                className={`container ${classes.services}`}
+            >
                 <div className="row">
                     <div className="col-lg-12">
                         {CUSTOM_VALUES.map((value, index) => (

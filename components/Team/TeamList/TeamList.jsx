@@ -1,4 +1,5 @@
 import classes from './TeamList.module.css';
+import Image from 'next/image';
 
 const MEMBERS = [
     {
@@ -28,10 +29,13 @@ const Member = ({ name, status, img }) => {
         <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div className={classes.member}>
                 <div className={classes['member-img']}>
-                    <img
-                        src={`assets/team/${img}`}
+                    <Image
+                        src={`/assets/team/${img}`}
                         className="img-fluid"
                         alt="img"
+                        width={250}
+                        height={250}
+                        layout="responsive"
                     />
                 </div>
                 <div className={classes['member-info']}>

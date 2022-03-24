@@ -18,7 +18,7 @@ const Client = ({ index }) => {
 
 const TrustedBy = () => {
     return (
-        <section style={{ marginTop: '2%' }}>
+        <section style={{ marginTop: '2%' }} data-aos="fade-right">
             <div className="container">
                 <h1 className={classes.h1}>Trusted By</h1>
                 <div

@@ -6,6 +6,7 @@ const Navbar = () => {
     return (
         <nav
             className={`navbar navbar-expand-lg  navbar-dark ${classes['nav__backround']}`}
+            data-aos="zoom-in"
         >
             <div className="container">
                 <Image

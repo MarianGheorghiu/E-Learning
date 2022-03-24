@@ -3,7 +3,7 @@ import ContactForm from './ContactForm/ContactForm';
 
 const Contact = () => {
     return (
-        <section className={classes['form-1']}>
+        <section className={classes['form-1']} data-aos="fade-up">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

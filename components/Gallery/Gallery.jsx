@@ -20,7 +20,7 @@ const ImageList = ({ index }) => {
 
 const Gallery = () => {
     return (
-        <section>
+        <section data-aos="flip-right">
             <div className="container">
                 <div className="section-title">
                     <h2 className={classes.h2}>Events</h2>

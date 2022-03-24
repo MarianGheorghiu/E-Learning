@@ -9,6 +9,8 @@
 .member-img {
     position: relative;
     overflow: hidden;
+    width: 350px;
+    max-width: 100%;
 }
 
 .member-info {

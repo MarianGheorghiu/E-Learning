@@ -1,8 +1,36 @@
 import classes from './Achivments.module.css';
 
+const ACHIVMENTS = [
+    {
+        numbrer: 2232,
+        title: 'Clients',
+    },
+    {
+        numbrer: 821,
+        title: 'Projects',
+    },
+    {
+        numbrer: 4456,
+        title: 'Hours Of Support',
+    },
+    {
+        numbrer: 21,
+        title: 'Hard Workers',
+    },
+];
+
+const AchivmentItem = ({ number, title }) => {
+    return (
+        <div className="col-lg-3 col-6 text-center">
+            <span className={classes.span}>{number}</span>
+            <p className={classes.p}>{title}</p>
+        </div>
+    );
+};
+
 const Achivments = () => {
     return (
-        <section className={classes.counts}>
+        <section className={classes.counts} data-aos="fade-up-right">
             <div className="container">
                 <div className={`text-center ${classes.title}`}>
                     <h3 className={classes.h3}>What we have achieved so far</h3>
@@ -13,33 +41,13 @@ const Achivments = () => {
                 </div>
 
                 <div className="row position-relative">
-                    <div className="col-lg-3 col-6 text-center">
-                        <span className={`purecounter ${classes.span}`}>
-                            232
-                        </span>
-                        <p className={classes.p}>Clients</p>
-                    </div>
-
-                    <div className="col-lg-3 col-6 text-center">
-                        <span className={`purecounter ${classes.span}`}>
-                            521
-                        </span>
-                        <p className={classes.p}>Projects</p>
-                    </div>
-
-                    <div className="col-lg-3 col-6 text-center">
-                        <span className={`purecounter ${classes.span}`}>
-                            1463
-                        </span>
-                        <p className={classes.p}>Hours Of Support</p>
-                    </div>
-
-                    <div className="col-lg-3 col-6 text-center">
-                        <span className={`purecounter ${classes.span}`}>
-                            15
-                        </span>
-                        <p className={classes.p}>Hard Workers</p>
-                    </div>
+                    {ACHIVMENTS.map((achivment, i) => (
+                        <AchivmentItem
+                            key={i}
+                            number={achivment.numbrer}
+                            title={achivment.title}
+                        />
+                    ))}
                 </div>
             </div>
         </section>

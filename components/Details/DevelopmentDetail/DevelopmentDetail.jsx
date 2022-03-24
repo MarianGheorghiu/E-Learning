@@ -3,7 +3,7 @@ import classes from './DevelopmentDetail.module.css';
 
 const DevelopmentDetail = () => {
     return (
-        <div className={`container ${classes.devel}`}>
+        <div className={`container ${classes.devel}`} data-aos="fade-right">
             <div className="row">
                 <div className="col-lg-6 col-sm-12  col-xl-7">
                     <div className={classes.image}>

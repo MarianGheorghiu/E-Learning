@@ -16,7 +16,7 @@ const Hero = () => {
         <section className={`${classes['hero-section']}`}>
             <div className="container">
                 <div className="row align-items-center text-white">
-                    <div className="col text-start">
+                    <div className="col text-start" data-aos="fade-right">
                         <h1 className={classes.h1}>
                             Welcome To Your Future School
                         </h1>
@@ -28,7 +28,7 @@ const Hero = () => {
                         <button className={classes.btn}>Discover</button>
                     </div>
 
-                    <div className="col text-end">{pageImg}</div>
+                    <div className="col text-end hero__animate">{pageImg}</div>
                 </div>
             </div>
         </section>
