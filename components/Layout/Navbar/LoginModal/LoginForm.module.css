@@ -82,6 +82,12 @@
     cursor: pointer;
 }
 
+.custom__button:hover {
+    background-color: rgba(0, 255, 255, 0.89);
+    color: white;
+    transition: 0.5s;
+}
+
 .social {
     margin-top: 30px;
     display: flex;
@@ -101,4 +107,17 @@
 }
 .social .sign {
     margin-left: 25px;
+}
+
+.spinner {
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: -9px;
+}
+
+.custom_account_error {
+    background-color: red;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
 }

@@ -20,6 +20,7 @@ const LoginModal = () => {
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
+    const handleLogin = () => setOpen(false);
 
     return (
         <div>
@@ -28,7 +29,7 @@ const LoginModal = () => {
             </Button>
             <Modal keepMounted open={open} onClose={handleClose}>
                 <Box sx={style}>
-                    <LoginForm />
+                    <LoginForm closeModal={handleLogin} />
                 </Box>
             </Modal>
         </div>
