@@ -6,9 +6,12 @@ const handler = async (req, res) => {
     const { email, password } = data;
 
     const auth = getAuth();
-    await signInWithEmailAndPassword(auth, email, password);
-
-    res.status(201).json({ message: 'Logged In!' });
+    try {
+        await signInWithEmailAndPassword(auth, email, password);
+        res.status(201).json({ message: 'Logged In!' });
+    } catch (error) {
+        res.status(401).json({ message: error });
+    }
 };
 
 export default handler;

@@ -3,7 +3,7 @@ import TeamList from './TeamList/TeamList';
 
 const Team = () => {
     return (
-        <section className={classes.team} data-aos="zoom-in-left">
+        <section className={classes.team} data-aos="zoom-in-right">
             <div className="container">
                 <div className={classes['section-title']}>
                     <h2 className={classes.h2}>Team</h2>

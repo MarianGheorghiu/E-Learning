@@ -19,7 +19,7 @@ const ImageContainer = ({ image }) => {
 
 const DetailsContainer = ({ title, text, isShcool, image }) => {
     return (
-        <div className={`container ${classes.details}`} data-aos="fade-left">
+        <div className={`container ${classes.details}`} data-aos="fade-right">
             <div className="row">
                 <div className="col-lg-6 col-sm-12 col-xl-5">
                     <div className={classes.text}>
