@@ -11,6 +11,7 @@ import {
     Contact,
     Copyright,
 } from '../components';
+import Link from 'next/link';
 
 const HomePage = () => {
     return (
@@ -27,6 +28,12 @@ const HomePage = () => {
             <Gallery />
             <Contact />
             <Copyright />
+            <Link href="/">
+                <a
+                    className="back-to-top d-flex align-items-center justify-content-center"
+                    style={{ display: 'inline' }}
+                />
+            </Link>
         </>
     );
 };

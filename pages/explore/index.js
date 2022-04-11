@@ -1,7 +1,7 @@
-import React from 'react';
+import MainNav from '../../components/ExplorePage/MainNav/MainNav';
 
 const ExplorePage = () => {
-    return <div>LoginPage</div>;
+    return <MainNav />;
 };
 
 export default ExplorePage;
