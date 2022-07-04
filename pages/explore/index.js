@@ -1,11 +1,16 @@
+import MainCourses from '../../components/ExplorePage/MainCourses/MainCourses';
 import MainNav from '../../components/ExplorePage/MainNav/MainNav';
 import MainUser from '../../components/ExplorePage/MainUser/MainUser';
+import Container from '@mui/material/Container';
 
 const ExplorePage = () => {
     return (
         <>
             <MainNav />
-            <MainUser />
+            <Container>
+                <MainUser />
+                <MainCourses />
+            </Container>
         </>
     );
 };

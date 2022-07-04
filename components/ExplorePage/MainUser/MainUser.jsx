@@ -12,7 +12,7 @@ const MainUser = () => {
             });
     }, []);
 
-    return <h1>{user}</h1>;
+    return <h1 style={{textAlign: 'center', paddingTop: '2%'}}>Wellcome, {user}</h1>;
 };
 
 export default MainUser;
